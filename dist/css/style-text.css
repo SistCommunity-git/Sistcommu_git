@@ -1,3 +1,16 @@
 #header{
     background:red;
 }
+#body
+{
+    background:yellow;
+}
+#footer
+{
+    background:green;
+}
+.container
+{
+    background:blue;
+    opacity:0.5;
+}
