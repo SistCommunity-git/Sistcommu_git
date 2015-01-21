@@ -1,37 +1,43 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
+    <link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+    <link href="dist/css/style-text.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/dist/js/bootstrap.js"></script>
 </head>
 <body>
-    <header>
-        <h1>머리말</h1>
-        <nav>
-            <h1>회원메뉴</h1>
-            <ul>
-                <li>로그인</li>
-                <li>회원가입</li>
-            </ul>
-        </nav>
+    <header id="header">
+        <div class="container"> <!--header를 감싸는 div-->
+            <h1>머리말</h1>
+            <nav>
+                <h1>회원메뉴</h1>
+                <ul>
+                    <li>로그인</li>
+                    <li>회원가입</li>
+                </ul>
+            </nav>
 
-        <div>
-            <h2>SIST Community 로고</h2>
+            <div>
+                <h2>SIST Community 로고</h2>
+            </div>
+
+            <nav>
+                <h1>메인메뉴</h1>
+                <ul>
+                    <li>밥집맛집</li>
+                    <li>공부합시다</li>
+                    <li>개발 참조 사이트</li>
+                    <li>IT뉴스</li>
+                    <li>커뮤니티</li>
+                </ul>
+            </nav>
         </div>
-
-        <nav>
-            <h1>메인메뉴</h1>
-            <ul>
-                <li>밥집맛집</li>
-                <li>공부합시다</li>
-                <li>개발 참조 사이트</li>
-                <li>IT뉴스</li>
-                <li>커뮤니티</li>
-            </ul>
-        </nav>
     </header>
-
     <main>
+    <div class="container"> <!--main을 감싸는 div-->
         <h1>메인 콘텐츠</h1>
         <div>
             <h2>밥집맛집</h2>
@@ -79,9 +85,10 @@
             <h2>자유게시판</h2>
             <p>자유게시판 이미지</p>
         </div>
+        </div>
     </main>
-
     <footer>
+    <div class="container"> <!--footer를 감싸는 div-->
         <h1>회사정보</h1>
 
         <div>
@@ -102,7 +109,7 @@
             <h2>저작권자 정보</h2>
             <p>ⓒ 2015  YE Company All rights reserved.</p>
         </div>
+        </div>
     </footer>
-
 </body>
 </html>
