@@ -16,7 +16,7 @@
             <nav>
                 <h1>회원메뉴</h1>
                 <ul>
-                    <li>로그인1234</li>
+                    <li>로그인</li>
                     <li>회원가입</li>
                 </ul>
             </nav>
@@ -40,21 +40,23 @@
     <main id="body">
         <div class="container"><!--main을 감싸는 div-->
             <h1>메인 콘텐츠</h1>
-            <div id="main-eat" class="container col-md-12">
-                <h2>밥집맛집</h2>
-                <div>
-                    <h3>밥집맛집 이미지</h3>
-                    <p>이미지1</p>
-                    <h3>밥집맛집 이미지 리스트</h3>
-                    <ul>
-                        <li>●</li>
-                        <li>○</li>
-                        <li>○</li>
-                    </ul>
-                </div>
+            <div class="container"> <!--첫번째줄-->
+                    <h2>밥집맛집</h2>
+                    <div id="main-eat" class="col-md-12">
+                        <h3>밥집맛집 이미지</h3>
+                        <p>이미지1</p>
+                    </div>
+                    <div>
+                        <h3>밥집맛집 이미지 리스트</h3>
+                        <ul>
+                            <li>●</li>
+                            <li>○</li>
+                            <li>○</li>
+                        </ul>
+                     </div>
             </div>
 
-            <div>
+            <div class="container"> <!--두번째줄-->
                 <div id="mainnotice" class="col-md-7">
                     <h2>NOTICE</h2>
                     <div>
@@ -74,19 +76,21 @@
                 </div>
             </div>
 
-            <div id="mainsite" class="container col-md-4">
-                <h2>개발참조사이트</h2>
-                <p>개발참조사이트 이미지</p>
-            </div>
+            <div class="container"> <!--세번째줄-->
+                <div id="mainsite" class="container col-md-4">
+                    <h2>개발참조사이트</h2>
+                    <p>개발참조사이트 이미지</p>
+                </div>
 
-            <div id="mainitnews" class="container col-md-4">
-                <h2>IT뉴스</h2>
-                <p>IT뉴스 이미지</p>
-            </div>
+                <div id="mainitnews" class="container col-md-4">
+                    <h2>IT뉴스</h2>
+                    <p>IT뉴스 이미지</p>
+                </div>
 
-            <div id="mainfree" class="container col-md-4">
-                <h2>자유게시판</h2>
-                <p>자유게시판 이미지</p>
+                <div id="mainfree" class="container col-md-4">
+                    <h2>자유게시판</h2>
+                    <p>자유게시판 이미지</p>
+                </div>
             </div>
         </div>
     </main>

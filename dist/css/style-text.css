@@ -1,29 +1,19 @@
 #header{
-    background:red;
 }
 #body
 {
-    background:yellow;
 }
 #footer
 {
-    background:green;
 }
 .container
 {
-    background:blue;
-    opacity:0.5;
 }
 #main-eat,#mainsite,#mainfree{
-    background:cyan;
-    float:left;
 }
 #mainitnews{
-    background:purple;
 }
 #mainnotice{
-    background:red;
 }
 #mainstudy{
-    background:brown;
 }
