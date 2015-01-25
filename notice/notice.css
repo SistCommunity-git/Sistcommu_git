@@ -1,0 +1,78 @@
+﻿#header {
+
+    height:70px;
+}
+
+#menu {
+    height:150px;
+    background:#ffd800;
+    border-top:3px solid #8CBA34;
+    
+}
+#body {
+
+    min-height:300px;
+    border-top:5px solid #8CBA34;
+    margin-top: 1px;
+}
+
+#footer {
+    height:100px;
+    background:#313131;
+    
+}
+
+.content-wrapper
+{
+    width:960px;
+    height:inherit;
+    min-height:inherit;
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+#customer{
+
+    min-height:inherit;
+    width:205px;
+    float:left;
+
+}
+
+#main{
+
+    min-height:inherit;
+    width:755px;
+    float:left;
+
+}
+
+#left-menu{
+
+    width:405px;
+    float:left;
+
+}
+
+#logo{
+
+    width:150px;
+    height:150px;
+    float:left;
+    background:url(logo4.png);
+}
+
+#right-menu{
+  
+    width:405px;
+    float:left;
+}
+
+#footer .content-wrapper
+{
+    color:white;
+    font-size:20px;
+
+}
