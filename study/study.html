@@ -3,91 +3,100 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
+    <link href="../dist/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="../dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+    <link href="../dist/css/style-text.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../dist/js/bootstrap.js"></script>
+
 </head>
-<body id="5">
-    <header>
-        <h1>머리말</h1>
-        <nav>
-            <h1>회원메뉴</h1>
-            <ul>
-                <li>로그인</li>
-                <li>회원가입</li>
-            </ul>
-        </nav>
-
-        <div>
-            <h2>SIST Community 로고</h2>
-        </div>
-
-        <nav>
-            <h1>메인메뉴</h1>
-            <ul>
-                <li>밥집맛집</li>
-                <li>공부합시다</li>
-                <li>개발 참조 사이트</li>
-                <li>IT뉴스</li>
-                <li>커뮤니티</li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-
-        <aside>
+<body>
+    <header id="header">
+        <div class="container">
+            <!--header를 감싸는 div-->
+            <h1>머리말</h1>
             <nav>
-                <h1>공부합시다 메뉴</h1>
-
+                <h1>회원메뉴</h1>
                 <ul>
-                    <li>스터디</li>
-                    <li>코딩,소스</li>
-                    <li>질문</li>
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
                 </ul>
             </nav>
+
+            <div>
+                <h2>SIST Community 로고</h2>
+            </div>
+
+            <nav>
+                <fieldset>
+                    <h1>메인메뉴</h1>
+                    <ul>
+                        <li><a href="">밥집맛집</a></li>
+                        <li><a href="">공부합시다</a></li>
+                        <li><a href="">개발 참조 사이트</a></li>
+                        <li><a href="">IT뉴스</a></li>
+                        <li><a href="">커뮤니티</a></li>
+                    </ul>
+                </fieldset>
+            </nav>
+        </div>
+    </header>
+
+    <div>
+        <h1>공부합시다 메뉴</h1>
+        <aside>
+            <fieldset>
+                <nav>
+                    <ul>
+                        <li><a href="">스터디</a></li>
+                        <li><a href="">코딩,소스</a></li>
+                        <li><a href="">질문</a></li>
+                    </ul>
+                </nav>
+            </fieldset>
         </aside>
+    </div>
 
-        <div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>번호</th>
-                        <th>제목</th>
-                        <th>글쓴이</th>
-                        <th>등록</th>
-                        <th>조회</th>
+    <main>
+        <h1>게시판</h1>
+        <table border="0" cellspacing="0" cellpadding="0" width="1000px">
+            <thead>
+                <tr align="center" valign="middle">
+                    <td>번호</td>
+                    <td>제목</td>
+                    <td>글쓴이</td>
+                    <td>등록일</td>
+                    <td>조회</td>
+                </tr>
 
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>스터디글제목</td>
-                        <td>작성자는 나</td>
-                        <td>2015-02-02</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>이거는 제목입니다</td>
-                        <td>작성자는 또저요</td>
-                        <td>2015-02-02</td>
-                        <td>15</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div>
-            <h3>현재페이지</h3>
-            <p> 1/2page</p>
-            <p>이전</p>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-            </ul>
-            <p>다음</p>
-        </div>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>1</td>
+                    <td><a href="">스터디글제목</a></td>
+                    <td>작성자는 나</td>
+                    <td>2015-02-02</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="">이거는 제목입니다</a></td>
+                    <td>작성자는 또저요</td>
+                    <td>2015-02-02</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>현재페이지</p>
+        <p> 1/2page</p>
+        <p><a href="">이전</a></p>
+        <ul>
+            <li><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">4</a></li>
+            <li><a href="">5</a></li>
+        </ul>
+        <p><a href="">다음</a></p>
         <form>
             <fieldset>
                 <legend>공부합시다 검색 필드</legend>
@@ -102,29 +111,34 @@
                 <input type="submit" value="검색" />
             </fieldset>
         </form>
+        </
     </main>
 
-    <footer>
-        <h1>회사정보</h1>
+    <footer id="footer">
+        <div class="container">
+            <!--footer를 감싸는 div-->
+            <h1>회사정보</h1>
 
-        <div>
-            <h2>소유자 정보</h2>
-            <dl>
-                <dt>대표:</dt>
-                <dd>안영은</dd>
-                <dt>Address:</dt>
-                <dd>서울특별시 서대문구 연세로 12(창천동) 피델리아빌딩 13,14F</dd>
-                <dt>Phone:</dt>
-                <dd>010-9279-5024</dd>
-                <dt>Email:</dt>
-                <dd>ayh303@gmail.com</dd>
-            </dl>
-        </div>
+            <div>
+                <h2>소유자 정보</h2>
+                <dl>
+                    <dt>대표:</dt>
+                    <dd>안영은</dd>
+                    <dt>Address:</dt>
+                    <dd>서울특별시 서대문구 연세로 12(창천동) 피델리아빌딩 13,14F</dd>
+                    <dt>Phone:</dt>
+                    <dd>010-9279-5024</dd>
+                    <dt>Email:</dt>
+                    <dd>ayh303@gmail.com</dd>
+                </dl>
+            </div>
 
-        <div>
-            <h2>저작권자 정보</h2>
-            <p>ⓒ 2015  YE Company All rights reserved.</p>
+            <div>
+                <h2>저작권자 정보</h2>
+                <p>ⓒ 2015  YE Company All rights reserved.</p>
+            </div>
         </div>
     </footer>
+
 </body>
 </html>
