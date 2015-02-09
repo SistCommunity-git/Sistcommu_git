@@ -1,40 +1,52 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link href="../css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="../css/siteref-style.css" rel="stylesheet" type="text/css" />
+    <link href="css/siteref-layout.css" rel="stylesheet" type="text/css" />
+    <link href="css/siteref-style.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="../js/modernizr.js"></script>
     <title></title>
 </head>
 <body>
-    <header>
-        <h1>머리말</h1>
-        <nav>
-            <h1>회원메뉴</h1>
-            <ul>
-                <li>로그인</li>
-                <li>회원가입</li>
-            </ul>
-        </nav>
+    <header id="header">
+        <h1 class="hidden">머리말</h1>
 
-        <div>
-            <h2>SIST Community 로고</h2>
+        <div class="member-menu">
+            <div class="content-wrapper">
+                <nav>
+                    <h1>회원메뉴</h1>
+                    <ul>
+                        <li>로그인</li>
+                        <li>회원가입</li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
-        <nav>
-            <h1>메인메뉴</h1>
-            <ul>
-                <li>밥집맛집</li>
-                <li>공부합시다</li>
-                <li>개발 참조 사이트</li>
-                <li>IT뉴스</li>
-                <li>커뮤니티</li>
-            </ul>
-        </nav>
+        <div class="logo">
+            <div class="content-wrapper">
+                <h2>Coding Community</h2>
+            </div>
+        </div>
+
+        <div class="main-menu">
+            <div class="content-wrapper">
+                <nav>
+                    <h1>메인메뉴</h1>
+                    <ul>
+                        <li>밥집맛집</li>
+                        <li>공부합시다</li>
+                        <li>개발 참조 사이트</li>
+                        <li>IT뉴스</li>
+                        <li>커뮤니티</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <main>
+    <main id="body">
     <h1>참조사이트 메인</h1>
         <div>
             <h2>개발 참조 사이트</h2>
@@ -90,7 +102,7 @@
         </div>
 
 <!-------검색하면 이내용이 보여진다------------>
-        <div>
+        <!--<div>
             <h2>개발참조사이트 검색시</h2>
 
             <div>
@@ -145,7 +157,7 @@
             <li>5</li>
         </ul>
         <p>다음</p>
-        </div>
+        </div>-->
 <!----------검색하면 이내용이 보여진다---------->
 
         <form>
@@ -165,7 +177,7 @@
         </form>
     </main>
 
-    <footer>
+    <footer id="footer">
         <h1>회사정보</h1>
 
         <div>
