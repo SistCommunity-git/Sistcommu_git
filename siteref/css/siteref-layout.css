@@ -4,12 +4,10 @@
 
 .content-wrapper{
     width:960px;
+    height:inherit;
     margin:auto;
     padding:0px 10px;
     position:relative;
-
-    background-color:purple;
-    opacity:0.2;
 }
 
 .member-menu{
@@ -113,18 +111,18 @@
 
 
 #body{
-
+    min-height:300px;
 }
 
 .main-title{
     background: url(../../images/board-arrow.png) no-repeat;
-    background-position:20px 15px;
+    background-position:20px 25px;
     height:56px;
-    margin:10px 20px;
+    margin:20px 20px 0px;
 
     font-size:34px;
     color:#3a3a3a;    
-    padding:10px 50px;
+    padding:20px 50px 0px;
     
     display:inline-block;
     float:left;
@@ -138,9 +136,36 @@
     display:inline-block;
     float:right;
 
-    height:56px;
-    margin-top:40px;
+    height:36px;
+    margin-top:60px;
     margin-right:20px;
+}
+
+.main-title-wrap{
+    height:96px;
+    border-bottom:4px solid #573d7d;
+}
+
+.main-content-ul{
+    margin:25px 21px 0px;
+    min-height:inherit;
+}
+
+.main-content-li{
+    margin-right:20px;
+    float:left;
+    min-height:inherit;
+}
+
+.content-title{
+    display:block;
+    font-size:26px;
+}
+
+.content-image{
+    width:256px;
+    height:262px;
+    padding-bottom:20px;
 }
 
 #footer{
